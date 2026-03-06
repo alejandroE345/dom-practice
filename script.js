@@ -1,5 +1,6 @@
 console.log("Script Started");
 
+    //Function for button 1
     function changeColor() {
         console.log("click");
         let color = prompt("Enter a new color for the poem");
@@ -8,6 +9,7 @@ console.log("Script Started");
         
     }
 
+    //Function for button 2
     function changeFontSize() {
         console.log("click");
         let size = prompt("Enter a new font size in pixels");
@@ -15,6 +17,7 @@ console.log("Script Started");
         p.style.fontSize = size;
     }
 
+    //Function for button 3
     function changePoem() {
         console.log("click");
         let title = prompt("Enter a new title for the poem");
